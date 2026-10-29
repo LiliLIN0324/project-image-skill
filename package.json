@@ -1,0 +1,12 @@
+{
+  "name": "riffle-biz-deck-jpg-skill",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Lay out a 16:9 numbered JPG deck (4762x2678) from real UI screenshots: one point per page, system-window frames, corner glow that fades to pure white.",
+  "license": "MIT",
+  "scripts": {
+    "render": "node scripts/render.mjs stage.html shots",
+    "export": "python scripts/export.py shots fig"
+  }
+}

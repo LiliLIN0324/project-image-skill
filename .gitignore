@@ -1,0 +1,6 @@
+shots/
+_work/
+fig/
+node_modules/
+__pycache__/
+*.log
