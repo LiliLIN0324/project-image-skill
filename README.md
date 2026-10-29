@@ -1,6 +1,6 @@
 <div align="center">
 
-# 版册 · riffle-biz-deck-jpg
+# 成册 · project-image
 
 **把一件事排成一套能直接发出去的 16:9 编号图**
 
@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](LICENSE)
 [![python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](scripts/export.py)
 [![chrome](https://img.shields.io/badge/Chrome-system-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](#依赖)
-[![stars](https://img.shields.io/github/stars/LiliLIN0324/riffle-biz-deck-jpg-skill?style=social)](https://github.com/LiliLIN0324/riffle-biz-deck-jpg-skill/stargazers)
+[![stars](https://img.shields.io/github/stars/LiliLIN0324/project-image-skill?style=social)](https://github.com/LiliLIN0324/project-image-skill/stargazers)
 
 [快速开始](#快速开始) · [工作方式](#工作方式) · [实测效果](#实测效果) · [English](README.en.md)
 
@@ -67,7 +67,7 @@
 ### 1. 装到 agent 里
 
 ```bash
-git clone https://github.com/LiliLIN0324/riffle-biz-deck-jpg-skill.git ~/.qoder/skills/riffle-biz-deck-jpg
+git clone https://github.com/LiliLIN0324/project-image-skill.git ~/.qoder/skills/project-image
 ```
 
 Claude Code / Codex / Gemini CLI 等把目录放进对应的 skills 目录即可；没有 skills 机制的，直接把 `SKILL.md` 交给它当提示词。
@@ -114,7 +114,7 @@ python scripts/export.py shots fig            # 缩到 4762×2678，加抖动，
 ## 目录
 
 ```
-riffle-biz-deck-jpg-skill/
+project-image-skill/
 ├── SKILL.md            # 完整规则：规格、版式、视觉系统、余光、质检
 ├── AGENTS.md           # 任何编码 agent 的入口
 ├── CLAUDE.md / GEMINI.md

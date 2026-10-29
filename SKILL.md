@@ -1,17 +1,17 @@
 ---
-name: "riffle-biz-deck-jpg"
-description: "生成 16:9 编号 JPG 系列图（商业介绍/作品展示，10–20 张），画幅 4762×2678、fig/<slug>/NN.jpg。强制图文结合：每页必须配目标项目官网/仓库的真实界面截图。当用户要做商业介绍图、作品图集、riffle 同款图时调用。"
+name: "project-image"
+description: "生成 16:9 编号 JPG 系列图（商业介绍/作品展示，10–20 张），画幅 4762×2678、fig/<slug>/NN.jpg。强制图文结合：每页必须配目标项目官网/仓库的真实界面截图。当用户要做商业介绍图、作品图集、项目介绍图时调用。"
 ---
 
-# riffle 同款商业介绍图（编号 JPG 系列）
+# 成册 · project-image（编号 JPG 系列）
 
-把内容做成一套横版图，一张一个论点，编号 `01.jpg…NN.jpg`。画幅与 riffle 项目完全一致，可直接进 `fig/<slug>/` 或站内作品详情。
+把内容做成一套横版图，一张一个论点，编号 `01.jpg…NN.jpg`。画幅与站内既有图集一致，可直接进 `fig/<slug>/` 或站内作品详情。
 
 ## 固定规格（不要改）
 
 | 项 | 值 |
 |---|---|
-| 像素 | **4762 × 2678**（16:9，已验证 riffle / xihu-panorama 全部同尺寸） |
+| 像素 | **4762 × 2678**（16:9，已验证多套站内图集同尺寸） |
 | 格式 | JPG，q≈88–92，单张目标 0.5–4 MB |
 | 命名 | `01.jpg`、`02.jpg`……补零两位；不混入 `logo.jpg` |
 | 目录 | `fig/<slug>/`；封面 logo 单独 `logo.jpg` |
@@ -165,5 +165,5 @@ LANCZOS 缩到 4762×2678，近白区域加 σ≈0.8 抖动，JPEG `quality=91, 
 
 ## 参考
 
-- 尺寸基准：`https://pub-3209bcb7fc36444a914deb0e70ceca92.r2.dev/fig/riffle/01.jpg`（4762×2678，5.4 MB）
-- 站内同款图集：`fig/riffle/`、`fig/xihu-panorama/`、`fig/chicken-universe/`
+- 尺寸基准：站内既有图集统一为 4762×2678（CSS 2381×1339 @ DPR 2）。
+- 结构参考：`assets/example-02.jpg`（左文右图）、`assets/example-03.jpg`（满幅图解）。

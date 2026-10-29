@@ -1,6 +1,6 @@
 <div align="center">
 
-# Deck · riffle-biz-deck-jpg
+# Plates · project-image
 
 **Turn one subject into a set of 16:9 numbered images you can ship as-is**
 
@@ -10,7 +10,7 @@ One real UI screenshot per page · one point per page · 4762×2678 px
 [![license](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](LICENSE)
 [![python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](scripts/export.py)
 [![chrome](https://img.shields.io/badge/Chrome-system-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](#dependencies)
-[![stars](https://img.shields.io/github/stars/LiliLIN0324/riffle-biz-deck-jpg-skill?style=social)](https://github.com/LiliLIN0324/riffle-biz-deck-jpg-skill/stargazers)
+[![stars](https://img.shields.io/github/stars/LiliLIN0324/project-image-skill?style=social)](https://github.com/LiliLIN0324/project-image-skill/stargazers)
 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Measured results](#measured-results) · [中文](README.md)
 
@@ -67,7 +67,7 @@ A real run: a four-page external deck for a Feishu group assistant.
 ### 1. Install
 
 ```bash
-git clone https://github.com/LiliLIN0324/riffle-biz-deck-jpg-skill.git ~/.qoder/skills/riffle-biz-deck-jpg
+git clone https://github.com/LiliLIN0324/project-image-skill.git ~/.qoder/skills/project-image
 ```
 
 For Claude Code / Codex / Gemini CLI, drop the directory into the matching skills folder. Without a skills mechanism, hand `SKILL.md` to the agent as a prompt.
@@ -114,7 +114,7 @@ Every step reruns on its own: copy edits → render + export; new screenshots �
 ## Layout
 
 ```
-riffle-biz-deck-jpg-skill/
+project-image-skill/
 ├── SKILL.md            # full spec: sizes, layouts, visual system, glow, checklist
 ├── AGENTS.md           # entry point for any coding agent
 ├── CLAUDE.md / GEMINI.md
